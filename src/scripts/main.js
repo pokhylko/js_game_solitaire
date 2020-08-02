@@ -2,164 +2,164 @@
 
 const DECK = [
   {
-    suit: 'hearts', number: 1, name: '2',
+    suit: 'hearts', color: 'red', number: 1, name: 'A', cardback: true,
   },
   {
-    suit: 'diamonds', number: 1, name: '2',
+    suit: 'diamonds', color: 'red', number: 1, name: 'A', cardback: true,
   },
   {
-    suit: 'spades', number: 1, name: '2',
+    suit: 'spades', color: 'black', number: 1, name: 'A', cardback: true,
   },
   {
-    suit: 'clubs', number: 1, name: '2',
+    suit: 'clubs', color: 'black', number: 1, name: 'A', cardback: true,
   },
   {
-    suit: 'hearts', number: 2, name: '3',
+    suit: 'hearts', color: 'red', number: 2, name: '2', cardback: true,
   },
   {
-    suit: 'diamonds', number: 2, name: '3',
+    suit: 'diamonds', color: 'red', number: 2, name: '2', cardback: true,
   },
   {
-    suit: 'spades', number: 2, name: '3',
+    suit: 'spades', color: 'black', number: 2, name: '2', cardback: true,
   },
   {
-    suit: 'clubs', number: 2, name: '3',
+    suit: 'clubs', color: 'black', number: 2, name: '2', cardback: true,
   },
   {
-    suit: 'hearts', number: 3, name: '4',
+    suit: 'hearts', color: 'red', number: 3, name: '3', cardback: true,
   },
   {
-    suit: 'diamonds', number: 3, name: '4',
+    suit: 'diamonds', color: 'red', number: 3, name: '3', cardback: true,
   },
   {
-    suit: 'spades', number: 3, name: '4',
+    suit: 'spades', color: 'black', number: 3, name: '3', cardback: true,
   },
   {
-    suit: 'clubs', number: 3, name: '4',
+    suit: 'clubs', color: 'black', number: 3, name: '3', cardback: true,
   },
   {
-    suit: 'hearts', number: 4, name: '5',
+    suit: 'hearts', color: 'red', number: 4, name: '4', cardback: true,
   },
   {
-    suit: 'diamonds', number: 4, name: '5',
+    suit: 'diamonds', color: 'red', number: 4, name: '4', cardback: true,
   },
   {
-    suit: 'spades', number: 4, name: '5',
+    suit: 'spades', color: 'black', number: 4, name: '4', cardback: true,
   },
   {
-    suit: 'clubs', number: 4, name: '5',
+    suit: 'clubs', color: 'black', number: 4, name: '4', cardback: true,
   },
   {
-    suit: 'hearts', number: 5, name: '6',
+    suit: 'hearts', color: 'red', number: 5, name: '5', cardback: true,
   },
   {
-    suit: 'diamonds', number: 5, name: '6',
+    suit: 'diamonds', color: 'red', number: 5, name: '5', cardback: true,
   },
   {
-    suit: 'spades', number: 5, name: '6',
+    suit: 'spades', color: 'black', number: 5, name: '5', cardback: true,
   },
   {
-    suit: 'clubs', number: 5, name: '6',
+    suit: 'clubs', color: 'black', number: 5, name: '5', cardback: true,
   },
   {
-    suit: 'hearts', number: 6, name: '7',
+    suit: 'hearts', color: 'red', number: 6, name: '6', cardback: true,
   },
   {
-    suit: 'diamonds', number: 6, name: '7',
+    suit: 'diamonds', color: 'red', number: 6, name: '6', cardback: true,
   },
   {
-    suit: 'spades', number: 6, name: '7',
+    suit: 'spades', color: 'black', number: 6, name: '6', cardback: true,
   },
   {
-    suit: 'clubs', number: 6, name: '7',
+    suit: 'clubs', color: 'black', number: 6, name: '6', cardback: true,
   },
   {
-    suit: 'hearts', number: 7, name: '8',
+    suit: 'hearts', color: 'red', number: 7, name: '7', cardback: true,
   },
   {
-    suit: 'diamonds', number: 7, name: '8',
+    suit: 'diamonds', color: 'red', number: 7, name: '7', cardback: true,
   },
   {
-    suit: 'spades', number: 7, name: '8',
+    suit: 'spades', color: 'black', number: 7, name: '7', cardback: true,
   },
   {
-    suit: 'clubs', number: 7, name: '8',
+    suit: 'clubs', color: 'black', number: 7, name: '7', cardback: true,
   },
   {
-    suit: 'hearts', number: 8, name: '9',
+    suit: 'hearts', color: 'red', number: 8, name: '8', cardback: true,
   },
   {
-    suit: 'diamonds', number: 8, name: '9',
+    suit: 'diamonds', color: 'red', number: 8, name: '8', cardback: true,
   },
   {
-    suit: 'spades', number: 8, name: '9',
+    suit: 'spades', color: 'black', number: 8, name: '8', cardback: true,
   },
   {
-    suit: 'clubs', number: 8, name: '9',
+    suit: 'clubs', color: 'black', number: 8, name: '8', cardback: true,
   },
   {
-    suit: 'hearts', number: 9, name: '10',
+    suit: 'hearts', color: 'red', number: 9, name: '9', cardback: true,
   },
   {
-    suit: 'diamonds', number: 9, name: '10',
+    suit: 'diamonds', color: 'red', number: 9, name: '9', cardback: true,
   },
   {
-    suit: 'spades', number: 9, name: '10',
+    suit: 'spades', color: 'black', number: 9, name: '9', cardback: true,
   },
   {
-    suit: 'clubs', number: 9, name: '10',
+    suit: 'clubs', color: 'black', number: 9, name: '9', cardback: true,
   },
   {
-    suit: 'hearts', number: 10, name: 'J',
+    suit: 'hearts', color: 'red', number: 10, name: '10', cardback: true,
   },
   {
-    suit: 'diamonds', number: 10, name: 'J',
+    suit: 'diamonds', color: 'red', number: 10, name: '10', cardback: true,
   },
   {
-    suit: 'spades', number: 10, name: 'J',
+    suit: 'spades', color: 'black', number: 10, name: '10', cardback: true,
   },
   {
-    suit: 'clubs', number: 10, name: 'J',
+    suit: 'clubs', color: 'black', number: 10, name: '10', cardback: true,
   },
   {
-    suit: 'hearts', number: 11, name: 'D',
+    suit: 'hearts', color: 'red', number: 11, name: 'J', cardback: true,
   },
   {
-    suit: 'diamonds', number: 11, name: 'D',
+    suit: 'diamonds', color: 'red', number: 11, name: 'J', cardback: true,
   },
   {
-    suit: 'spades', number: 11, name: 'D',
+    suit: 'spades', color: 'black', number: 11, name: 'J', cardback: true,
   },
   {
-    suit: 'clubs', number: 11, name: 'D',
+    suit: 'clubs', color: 'black', number: 11, name: 'J', cardback: true,
   },
   {
-    suit: 'hearts', number: 12, name: 'K',
+    suit: 'hearts', color: 'red', number: 12, name: 'D', cardback: true,
   },
   {
-    suit: 'diamonds', number: 12, name: 'K',
+    suit: 'diamonds', color: 'red', number: 12, name: 'D', cardback: true,
   },
   {
-    suit: 'spades', number: 12, name: 'K',
+    suit: 'spades', color: 'black', number: 12, name: 'D', cardback: true,
   },
   {
-    suit: 'clubs', number: 12, name: 'K',
+    suit: 'clubs', color: 'black', number: 12, name: 'D', cardback: true,
   },
   {
-    suit: 'hearts', number: 13, name: 'A',
+    suit: 'hearts', color: 'red', number: 13, name: 'K', cardback: true,
   },
   {
-    suit: 'diamonds', number: 13, name: 'A',
+    suit: 'diamonds', color: 'red', number: 13, name: 'K', cardback: true,
   },
   {
-    suit: 'spades', number: 13, name: 'A',
+    suit: 'spades', color: 'black', number: 13, name: 'K', cardback: true,
   },
   {
-    suit: 'clubs', number: 13, name: 'A',
+    suit: 'clubs', color: 'black', number: 13, name: 'K', cardback: true,
   },
 ];
 
-const deskFieldColumn = document.querySelectorAll('.desk-field__w');
+const deskColumns = document.querySelectorAll('.desk-field__w');
 const deskHeaderIn = document.querySelector('.desk-header__in');
 const deskHeaderInS1 = deskHeaderIn.querySelector('.s1');
 const cardsS1 = deskHeaderInS1.querySelector('.card');
@@ -167,70 +167,120 @@ const baseCardS1 = deskHeaderInS1.querySelector('.base-card');
 const deskHeaderInS2 = deskHeaderIn.querySelector('.s2');
 const cardsS2 = deskHeaderInS2.querySelectorAll('.card');
 let copyDeck = DECK.slice();
+const shuffledDeck = [];
 let deckS2 = [];
 let deckS2Flip = [];
+const gameColumns = [];
 
-function randomCard() {
-  const newCard = copyDeck[Math.floor(Math.random() * copyDeck.length)];
+function shuffleDeck() {
+  for (let card = 0; card < DECK.length; card++) {
+    const randomCard = copyDeck[Math.floor(Math.random() * copyDeck.length)];
 
-  copyDeck = copyDeck.filter(card => card !== newCard);
-
-  return newCard;
+    copyDeck = copyDeck.filter(removeCard => removeCard !== randomCard);
+    shuffledDeck.push(randomCard);
+  }
 }
 
-function startGame() {
-  for (const column of deskFieldColumn) {
-    [...column.querySelectorAll('.card')].map(card => {
-      const newCard = randomCard();
+shuffleDeck();
 
-      card.hidden = false;
-      card.childNodes[0].textContent = newCard.name;
-      // card.textContent = newCard.name;
-      card.classList.add(newCard.suit);
+function handOverCard(deck) {
+  return deck.pop();
+}
+
+function sevenColumnArray() {
+  for (let column = 0; column < deskColumns.length; column++) {
+    const arrColumn = [];
+
+    for (let card = 0; card < column; card++) {
+      arrColumn.push(handOverCard(shuffledDeck));
     }
-    );
-  }
 
-  for (let i = 0; i < 24; i++) {
-    deckS2.push(randomCard());
-  }
+    const lastCard = handOverCard(shuffledDeck);
 
-  cardsS1.addEventListener('click', eventS1);
+    lastCard.cardback = false;
+    arrColumn.push(lastCard);
+    gameColumns.push(arrColumn);
+  }
 }
 
-function threeRandomCards() {
-  [...cardsS2].map(card => {
-    const newCard = deckS2[0];
+sevenColumnArray();
 
-    deckS2.shift(newCard);
-    deckS2Flip.push(newCard);
-    card.hidden = false;
-    card.childNodes[0].textContent = newCard.name;
-    card.classList.remove('hearts');
-    card.classList.remove('diamonds');
-    card.classList.remove('spades');
-    card.classList.remove('clubs');
-    card.classList.add(newCard.suit);
-  });
+function createSevenColumn() {
+  for (let column = 0; column < gameColumns.length; column++) {
+    const baseCard = document.createElement('div');
 
-  if (deckS2.length === 0) {
-    cardsS1.hidden = true;
+    baseCard.classList.add('base-card');
+    deskColumns[column].append(baseCard);
+
+    for (let card = 0; card <= column; card++) {
+      const newCard = document.createElement('div');
+
+      if (gameColumns[column][card].cardback === true) {
+        newCard.classList.add('card', 'cardback');
+      } else {
+        newCard.classList.add('card', 'card-last');
+        newCard.innerHTML = `<span>${gameColumns[column][card].name}</span>`;
+        newCard.draggable = true;
+        newCard.classList.add(gameColumns[column][card].suit);
+      }
+      deskColumns[column].append(newCard);
+    }
   }
+  styleTopCard();
+}
+
+createSevenColumn();
+
+  // for (let i = 0; i < 24; i++) {
+  //   deckS2.push(handOverCard(shuffledDeck));
+  // }
+  // styleTopCard();
+  // cardsS1.addEventListener('click', eventS1);
+// }
+
+function threeHandOverCard() {
+  for (let card = 0; card < 3; card++) {
+    const random = handOverCard(shuffledDeck);
+    const newCard = document.createElement('div');
+
+    newCard.classList.add('card', 'card-last');
+    newCard.innerHTML = `<span>${random.name}</span>`;
+    newCard.classList.add(random.suit);
+    deskHeaderInS2.append(newCard);
+
+    if (card === 2) {
+      newCard.draggable = true;
+    }
+  }
+}
+
+function styleTopCard() {
+  [...deskColumns].map(column => {
+    const cards = column.querySelectorAll('.card');
+    let top = '0';
+
+    for (const card of cards) {
+      card.style.top = `${top}px`;
+      top = +top + 40;
+    }
+  });
 }
 
 function flipCard() {
   deckS2 = deckS2Flip.slice();
   deckS2Flip = [];
-  cardsS1.hidden = false;
+  cardsS1.classList.remove('hidden');
 
   [...cardsS2].map(card => {
-    card.hidden = true;
+    card.classList.add('hidden');
   });
 }
 
 const eventS1 = function(event) {
-  threeRandomCards();
+  threeHandOverCard();
 };
+
+cardsS1.addEventListener('click', eventS1);
 
 const eventFlipS1 = function(event) {
   flipCard();
@@ -238,7 +288,108 @@ const eventFlipS1 = function(event) {
 
 baseCardS1.addEventListener('click', eventFlipS1);
 
-startGame();
+let activeCard;
 
-// console.log(cardBackS1)
-// console.log(cardsS1);
+document.addEventListener('dragstart', event => {
+  activeCard = event.target;
+  // console.log(activeCard);
+
+  setTimeout(() => {
+    activeCard.classList.add('hidden');
+  }, 0);
+});
+
+document.addEventListener('dragend', event => {
+  activeCard.classList.remove('hidden');
+});
+
+const dragOver = function(event) {
+  event.preventDefault();
+};
+const dragEnter = function(event) {
+  event.preventDefault();
+};
+// const dragLeave = function() {
+// };
+const dragDrop = function() {
+  let fromColumn = 0;
+  let dropColumn = 0;
+
+  while (deskColumns[fromColumn] !== activeCard.parentNode) {
+    fromColumn++;
+  }
+
+  while (deskColumns[dropColumn] !== this) {
+    dropColumn++;
+  }
+
+  const fromCard = gameColumns[fromColumn][gameColumns[fromColumn].length - 1];
+  const fromCardBack = gameColumns[fromColumn][gameColumns[fromColumn].length - 2];
+  const dropCard = gameColumns[dropColumn][gameColumns[dropColumn].length - 1];
+
+  // append A
+
+  if (fromCard.number === 1 && dropCard === undefined) {
+    const popCard = gameColumns[fromColumn].pop();
+
+    const cardback = activeCard.previousSibling;
+
+    if ([...cardback.classList].includes('cardback')
+    && activeCard.parentNode !== this) {
+      cardback.classList.add('card-last', fromCardBack.suit);
+      cardback.classList.remove('cardback');
+      cardback.innerHTML = `<span>${fromCardBack.name}</span>`;
+    };
+
+    gameColumns[dropColumn].push(popCard);
+    this.lastChild.classList.remove('card-last');
+    cardback.draggable = true;
+    this.append(activeCard);
+    styleTopCard();
+  }
+
+  // append card + card
+
+  if (dropCard.number - fromCard.number === 1
+    && dropCard.color !== fromCard.color) {
+    const popCard = gameColumns[fromColumn].pop();
+
+    gameColumns[dropColumn].push(popCard);
+
+    const prevCard = gameColumns[fromColumn];
+
+    if (prevCard.length > 0) {
+      prevCard[prevCard.length - 1].cardback = false;
+    }
+
+    let cardback;
+
+    if ([...activeCard.parentNode.classList].includes('desk-field__w')) {
+      cardback = activeCard.previousSibling;
+
+      if ([...cardback.classList].includes('cardback')
+        && activeCard.parentNode !== this) {
+        cardback.classList.add('card-last', fromCardBack.suit);
+        cardback.classList.remove('cardback');
+        cardback.innerHTML = `<span>${fromCardBack.name}</span>`;
+      };
+    }
+
+    if ([...activeCard.parentNode.classList].includes('desk-header__in-s')) {
+      cardback = activeCard.previousSibling;
+    }
+
+    this.lastChild.classList.remove('card-last');
+    cardback.draggable = true;
+    this.append(activeCard);
+    styleTopCard();
+  };
+  console.log(gameColumns);
+};
+
+deskColumns.forEach(column => {
+  column.addEventListener('dragover', dragOver);
+  column.addEventListener('dragenter', dragEnter);
+  // column.addEventListener('dragleave', dragLeave);
+  column.addEventListener('drop', dragDrop);
+});

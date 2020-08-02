@@ -2,8 +2,12 @@
 @import "fonts";
 @import "typography";
 
+* {
+  user-select: none;
+}
+
 body {
-  background: $c-gray;
+  background: url(../images/bg.jpg);
 }
 
 .container {
@@ -19,6 +23,7 @@ body {
   border: 2px solid;
   font-size: 30px;
   padding: 5px;
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.5);
 }
 
 .card {
@@ -33,20 +38,24 @@ body {
 
 .base-card + .card {
   position: absolute;
-  top: 0;
 }
 
 .desk-header {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
   margin-bottom: 50px;
 
   &__in {
     display: flex;
     position: relative;
 
-    &-s {
-      margin-right: 20px;
+    .base-card + .card {
+      top: 0;
+    }
+
+    .s2 {
+      margin-left: 20px;
       position: relative;
     }
 
@@ -75,35 +84,14 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  min-height: 500px;
 
   &__w {
     position: relative;
   }
 
   .card {
-    + .card {
-      top: 20px;
-
-      + .card {
-        top: 40px;
-
-        + .card {
-          top: 60px;
-
-          + .card {
-            top: 80px;
-
-            + .card {
-              top: 100px;
-
-              + .card {
-                top: 120px;
-              }
-            }
-          }
-        }
-      }
-    }
+    cursor: all-scroll;
   }
 }
 
@@ -114,6 +102,7 @@ body {
 
 .base-card {
   border-color: #999;
+  background-color: #ddd;
 }
 
 .cardback {
@@ -179,14 +168,10 @@ body {
   text-align: center;
 }
 
-.cardback span,
-.cardback.hearts:before,
-.cardback.diamonds:before,
-.cardback.spades:before,
-.cardback.clubs:before,
-.cardback.hearts span:after,
-.cardback.diamonds span:after,
-.cardback.spades span:after,
-.cardback.clubs span:after {
+.hidden {
   display: none;
+}
+
+.hover {
+  filter: invert(1);
 }
