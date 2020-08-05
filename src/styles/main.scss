@@ -7,36 +7,28 @@
 }
 
 body {
-  background: url(../images/bg.jpg);
+  background: #043c23;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
 .card,
 .base-card {
-  width: 150px;
-  height: 240px;
+  width: 110px;
+  height: 180px;
   border-radius: 9px;
   border: 2px solid;
-  font-size: 30px;
+  font-size: 20px;
   padding: 5px;
-  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.5);
 }
 
 .card {
   border-color: #000;
   background-color: #fff;
-  background-size: cover;
-
-  + .card {
-    position: absolute;
-  }
-}
-
-.base-card + .card {
   position: absolute;
 }
 
@@ -50,24 +42,9 @@ body {
     display: flex;
     position: relative;
 
-    .base-card + .card {
-      top: 0;
-    }
-
     .s2 {
       margin-left: 20px;
       position: relative;
-    }
-
-    .card {
-      + .card {
-        top: 0;
-        left: 40px;
-
-        + .card {
-          left: 80px;
-        }
-      }
     }
   }
 
@@ -76,6 +53,7 @@ body {
 
     &-f {
       margin-left: 20px;
+      position: relative;
     }
   }
 }
@@ -100,6 +78,11 @@ body {
   color: #f00;
 }
 
+.card.spades,
+.card.clubs {
+  color: #000;
+}
+
 .base-card {
   border-color: #999;
   background-color: #ddd;
@@ -107,65 +90,67 @@ body {
 
 .cardback {
   background-image: url(../images/card-back.png);
+  background-size: cover;
 }
 
 .hearts:before,
 .hearts span:after {
   content: "♡";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 70px;
   color: #f00;
 }
 
 .diamonds:before,
 .diamonds span:after {
   content: "♢";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 70px;
   color: #f00;
 }
 
 .spades:before,
 .spades span:after {
   content: "♤";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 70px;
   color: #000;
 }
 
 .clubs:before,
 .clubs span:after {
   content: "♧";
+  color: #000;
+}
+
+.hearts:before,
+.diamonds:before,
+.spades:before,
+.clubs:before {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 70px;
-  color: #000;
+  transform: translate(-50%, -50%);
+}
+
+.card span {
+  width: 20px;
+  position: absolute;
+  text-align: center;
 }
 
 .hearts span:after,
 .diamonds span:after,
 .spades span:after,
 .clubs span:after {
-  top: 50px;
-  left: 15px;
-  font-size: 20px;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
 }
 
-.card span {
-  width: 30px;
-  position: absolute;
-  text-align: center;
+.cardback.hearts:before,
+.cardback.diamonds:before,
+.cardback.spades:before,
+.cardback.clubs:before,
+.cardback span {
+  display: none;
 }
 
 .hidden {
